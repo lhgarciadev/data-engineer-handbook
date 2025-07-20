@@ -25,7 +25,7 @@ services:
       - 10001:10001
       - 4040-4042:4040-4042
   rest:
-    image: tabulario/iceberg-rest
+    image: apache/iceberg-rest-fixture #tabulario/iceberg-rest
     container_name: iceberg-rest
     networks:
       iceberg_net:
